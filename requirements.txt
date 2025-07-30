@@ -1,4 +1,4 @@
-gymnasium
+gymnasium[all]
 #gymnasium[classic-control]>=0.29.0
 moviepy
 numpy

@@ -8,12 +8,12 @@ requirements = pathlib.Path("requirements.txt").read_text().splitlines()
 
 
 setuptools.setup(
-    name="ptan",
-    author="Max Lapan",
-    author_email="max.lapan@gmail.com",
+    name="lqtech_ptan",
+    author="lqtech",
+    author_email="liuqiang@lqtech.cc",
     license='GPL-v3',
-    description="PyTorch reinforcement learning framework",
-    version="0.8.1",
+    description="PyTorch reinforcement learning framework:adapt to latest pytorch",
+    version="0.0.1",
     packages=setuptools.find_packages(),
     install_requires=requirements,
 )
